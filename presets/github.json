@@ -1,0 +1,22 @@
+{
+    "aliveStatusCodes": [200, 206],
+    "fallbackRetryDelay": "30s",
+    "httpHeaders": [
+        {
+            "headers": {
+                "Accept": "application/vnd.github+json",
+                "User-Agent": "markdown-link-check-config-nick2bad4u"
+            },
+            "urls": [
+                "https://api.github.com",
+                "https://github.com",
+                "https://raw.githubusercontent.com"
+            ]
+        }
+    ],
+    "ignorePatterns": [{ "pattern": "^#" }, { "pattern": "^mailto:" }],
+    "replacementPatterns": [],
+    "retryCount": 4,
+    "retryOn429": true,
+    "timeout": "25s"
+}

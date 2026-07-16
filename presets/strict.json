@@ -1,0 +1,9 @@
+{
+    "aliveStatusCodes": [200, 206],
+    "fallbackRetryDelay": "15s",
+    "ignorePatterns": [{ "pattern": "^#" }],
+    "replacementPatterns": [],
+    "retryCount": 2,
+    "retryOn429": true,
+    "timeout": "15s"
+}
